@@ -3,10 +3,10 @@ fn main() {
     println!("\nParameters example: ");
     parameters_example(8, 'z');
 
-    // Parameters -----------------------------------------------------
+    // Expression -----------------------------------------------------
     expression_example();
 
-    // Return example -----------------------------------------------------
+    // Return example -------------------------------------------------
     println!("return_example(8) -> {}", return_example(8));
     println!("return_example(4) -> {}", return_example(4));
 }
