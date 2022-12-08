@@ -14,6 +14,10 @@ fn main() {
     // Compound types -----------------------------------------------------
     println!("\nCompound types: ");
     compound_types_example();    
+
+    // Str type -----------------------------------------------------
+    println!("\nStr type: ");
+    str_example();
 }
 
 #[allow(unused_variables, unused_assignments, dead_code)]
@@ -94,4 +98,15 @@ fn compound_types_example(){
     // println!("array[5]:     {}", arr[5]);  // doesnt work
     // println!("array[-1]:    {}", arr[-1]);  // doesnt work
     println!("array[0]: {}", arr[0]);  // doesnt work
+}
+
+
+fn str_example(){
+
+    let s = "ee";
+
+    // switch to String for it to work
+    // s = s + "aa";
+
+    print!("{}\n", s);
 }
